@@ -1,0 +1,11 @@
+.loading-container {
+  display        : flex;
+  flex-direction : column;
+  justify-content: center;
+  align-items    : center;
+  min-height     : 100vh;
+}
+
+.app-container {
+  min-height: 100vh;
+}

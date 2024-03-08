@@ -1,0 +1,22 @@
+.home-container {
+    width       : 1100px;
+    margin-right: auto;
+    margin-left : auto;
+
+    .img-slide {
+        width              : 95%;
+        height             : 460px;
+        background-position: center;
+        background-repeat  : no-repeat;
+        background-size    : cover;
+        background-color   : #eee;
+
+        &.img-1 {
+            background-image: url('https://delifruit.vn/wp-content/uploads/2023/06/kiwi-1.jpg');
+        }
+
+        &.img-2 {
+            background-image: url('https://static.independent.co.uk/2022/08/22/09/newFile-5.jpg');
+        }
+    }
+}

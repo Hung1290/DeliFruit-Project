@@ -1,0 +1,18 @@
+.cart-img {
+    width : 100px;
+    height: 100px;
+}
+
+
+
+.cartPage-btn {
+    background-color: #000;
+    border          : none;
+    margin-top      : 5px;
+    width           : 100%;
+    padding         : 10px 0;
+
+    &:hover {
+        background-color: gray;
+    }
+}
